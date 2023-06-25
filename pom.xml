@@ -3,13 +3,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-<properties>
-  <sonar.organization>gmz</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
-  <sonar.projectKey>opencellsoft_core</sonar.projectKey>
-  <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
-</properties>
 <skipTests>true</skipTests>
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -116,6 +110,13 @@
   </issueManagement>
 
   <properties>
+
+    <sonar.organization>gmz</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
+    <sonar.projectKey>opencellsoft_core</sonar.projectKey>
+    <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+
     <!-- Shared properties with plugins and version numbers across submodules-->
     <asciidoctorj.version>2.5.3</asciidoctorj.version>
     <bootstrap.version>3.3.7</bootstrap.version>
