@@ -142,4 +142,6 @@ Or in a docker run it would (once this version is pushed into docker hub) look l
 ```Shell
 docker run -d -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 -e EXCLUDE_CATEGORIES="CLIENT_SIDE,GENERAL,CHALLENGE" -e EXCLUDE_LESSONS="SqlInjectionAdvanced,SqlInjectionMitigations" webgoat/webgoat
 ```
-
+Haz cualquier commit para forzar un reanalisis (por ejemplo editando el README.md). Espera ´
+a que finalice y vuelve a Sonar. ¿Cual es el estado del proyecto (Passed/Failed)?. ¿A qu ´ ´e crees
+que se debe? ¿Crees que el numero de vulnerabilidades afecta a dicho veredicto? 
